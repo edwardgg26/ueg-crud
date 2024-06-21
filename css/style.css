@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/***Header***/
+
+:root{
+    --colorPrincipal: #007BFF;
+}
+
+.headerBox{
+    background-color: var(--colorPrincipal);
+    color: white;
+    padding: 20px;
+}
+
+.headerBoxPostLogin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerBoxPostLogin a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.botonesGeneral{
+    padding: 10px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.botonEnviar{
+    background-color: var(--colorPrincipal);
+    color: white;
+}
+
+.botonLimpiar{
+    background-color: #D6D8DB;
+    color: black;
+}
+
+.botonVolver{
+    color: white;
+    background-color: #34CE57;
+    text-decoration: none;
+}
+
+.icon_pencil{
+    color: var(--colorPrincipal);
+}
+
+.icon_basura{
+    color: red;
+}
+
+.botonEliminar{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+}
+
+.sectionLoginBox{
+    display: flex;
+    justify-content: center;
+}
+
+.sectionBox{
+    display: flex;
+    justify-content: center;
+}
+
+.sectionTableBox{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding: 50px 80px;
+}
+
+.sectionEliminarBox{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionEliminarBox label{
+    font-size: 18px;
+}
+
+
+.sectionTableBox > a{
+    width: fit-content;
+}
+
+.sectionTableBox h4{
+    font-size: 18px;
+}
+
+table{
+    border: 1px solid rgb(148, 148, 148);
+    border-collapse: collapse;
+}
+
+table tr td,table tr th{
+    border: 1px solid rgb(148, 148, 148);
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+.sectionInicio{
+    text-align: center;
+    margin: 20px 120px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    background-color: black;
+    padding: 10px;
+}
+
+nav ul a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.goldButton{
+    background-color: gold;
+    color: black;
+}
+
+.normalButton:hover{
+    background-color: #4E555B;
+}
+
+.formBox{
+    margin: 50px;
+    border: 1px solid lightgray;
+    padding: 40px;
+}
+
+.formBox input,.formBox select{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.formBox h4{
+    font-size: 20px;
+}
+
+.radiobutton{
+    height: 15px;
+    width: 15px;
+}
+
+.formBox label{
+    font-size: 18px;
+}
+
+.formBox a{
+    color: white;
+    background-color: #34CE57;
+    text-decoration: none;
+}
+
+span{
+    font-size: 15px;
+    color: rgb(95, 95, 95);
+}

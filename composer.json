@@ -1,0 +1,19 @@
+{
+    "name": "edwar/busca-hogar",
+    "description": "Proyecto Bienes Raices",
+    "authors": [
+        {
+            "name": "Edward Gonzalez"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
